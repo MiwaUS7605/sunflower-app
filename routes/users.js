@@ -23,4 +23,5 @@ router.get('/shop-grid', serviceController.list);
 router.get('/shoping-cart', userController.shopingcart);
 
 router.get('/home', serviceController.featuredproducts);
+
 module.exports = router;
